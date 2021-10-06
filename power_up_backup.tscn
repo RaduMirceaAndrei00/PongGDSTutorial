@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://power_up.tscn" type="PackedScene" id=1]
+
+[node name="power_up" instance=ExtResource( 1 )]
+modulate = Color( 1, 0, 0, 1 )
+scale = Vector2( 0.5059, 0.5 )
+ball_variable_modify = "_speed"
+ball_variable_set = 600.0
